@@ -289,3 +289,61 @@ ul a:hover {
 .pages a {
     margin: 0 4px;
 }
+
+
+/*RESPONSIVE MEDIA QUERIES */
+
+/* for tab  -  upto 800px  */
+@media (max-width: 800px) {
+    .nav-search {
+        width: 400px; 
+    }
+    
+    .box {
+        width: 45%;
+    }
+    
+    .hero-section {
+        height: 200px; 
+    }
+}
+
+/* for Mobile - 600px */
+@media (max-width: 600px) {
+    
+    .navbar {
+        height: auto;
+        flex-direction: column; 
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 5px;
+    }
+
+    .nav-search {
+        width: 90%; 
+    }
+
+    .add-icon, .panel {
+        display: none; 
+    }
+
+    .box {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto; 
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        margin: 10px 0; 
+    }
+}
